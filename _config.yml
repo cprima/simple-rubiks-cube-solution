@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: A simple solution for the Rubik's cube
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is to present a simple,
+  and slow,
+  solution to the Rubik's cube.
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+twiiiiitter_username: jekyllrb
+github_username:  cprior
+
+# Build settings
+markdown: kramdown
+
+permalink: /:categories/:title.html
+
+source:        .
+layouts_dir:  ./business/marketing/website/_layouts
+includes_dir: ./business/marketing/website/_includes
+destination:  ./business/marketing/website/_site
+data_dir:     ./data
+
+sass:
+    sass_dir: ./business/marketing/website/assets/_sass
+
+defaults:
+  -
+    scope:
+      path: "./business/marketing/website/_posts/en"
+      type: "posts"
+    values:
+      layout: "default"
+      lang: "en"
+  -
+    scope:
+      path: "./business/marketing/website/_posts/de"
+      type: "posts"
+    values:
+      layout: "default"
+      lang: "de"
+#  -
+#    scope:
+#      path: "application_physical/building-blocks"
+#      type: "posts" #index.md is of type application-physical_building-blocks
+#    values:
+#      permalink: /application_physical/building-blocks/:title.html
+
+

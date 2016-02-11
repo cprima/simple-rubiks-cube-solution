@@ -1,0 +1,7 @@
+.en:lang(en), .fr:lang(fr), .zh:lang(zh){
+    font-weight: bold;
+}
+
+.lang { float: right; }
+li.lang { list-style-type:none }
+
