@@ -1,4 +1,5 @@
-{% assign posts=site.posts | where:"identifier", page.identifier | sort: 'path' %}
+{% assign variants=site.posts | where:"identifier", page.identifier | sort: 'path' %}
+{% assign menuitems=site.pages | where:"lang", page.lang %}
 
 <header class="site-header">
 
@@ -16,19 +17,21 @@
       </a>
 
       <div class="trigger">
-<ul>
-        {% for my_page in site.pages %}
+        <ul>
+        {% for my_page in menuitems %}
           {% if my_page.title %}
           <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
           {% endif %}
         {% endfor %}
+        {% if variants.size > 0 %}
           <li class="lang">
-{% for post in posts %}
+        {% for post in variants %}
         <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-{% endfor %}
+        {% endfor %}
           </li>
+        {% endif %}
+        </ul>
       </div>
-
     </nav>
 
   </div>
