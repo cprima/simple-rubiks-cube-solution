@@ -1,5 +1,5 @@
 ---
-layout: tufte
+layout: initializr
 identifier: loremipsum
 title:  "Lorem Ipsum"
 date:   2016-02-11 22:00:00 +0100
