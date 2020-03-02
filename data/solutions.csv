@@ -1,60 +1,60 @@
-ID,solution_ID,imagegenerator,stepnumber,variant,param,face_definition,urlappend,algo_next_de,algo_next_en
+ID,solutionID,imagegenerator,stepnumber,variant,param,face_definition,urlappend,algo_next_de,algo_next_en
 ,generic,visualcube,0,,,,,,
 ,generic,visualcube,0,,alg,DL2U2L2DL2DB2R2L2U'B2RU2FU2F2R2DLUB,,,
 ,simple,visualcube,1,,fc,twtwwwtwttrttrtttttgttgttttttttytttttottotttttbttbtttt,,,
-,simple,visualcube,2,1,fc,twtwwwtwtttttttwtttrttrttttttttttttttttttttttttttttttt,,R’ U’ R,
-,simple,visualcube,2,2,fc,twtwwwtwtttttttttttrttrtttwttttttttttttttttttttttttttt,,F U F’,
-,simple,visualcube,2,3,fc,twtwwwtwtttttttttttrttrttttttwtttttttttttttttttttttttt,&co=10,R’ U R F U2 F’,
-,simple,visualcube,3,1,fc,ttttyttrtttttrtrrrtbttbtbbbttttttttttttttttttttttttttt,&arw=F1F5F2,O R O’ R’ F R’ F’ R,
-,simple,visualcube,3,2,fc,ttttyrttttgttgtgggttttrtrrrttttttttttttttttttttttttttt,&arw=R1R3R0,O’ F’ O F O R O’ R’,
-,simple,visualcube,4,1,fc,tytyyttttttttttttttttttttttttttttttttttttttttttttttttt,,F O R O’ R’ F’,
-,simple,visualcube,4,2,fc,tttyyytttttttttttttttttttttttttttttttttttttttttttttttt,,F R O R’ O’ F’,
+,simple,visualcube,2,1,fc,twtwwwtwtttttttwtttrttrttttttttttttttttttttttttttttttt,,R’ U’ R,R’ D’ R
+,simple,visualcube,2,2,fc,twtwwwtwtttttttttttrttrtttwttttttttttttttttttttttttttt,,F U F’,F D F’
+,simple,visualcube,2,3,fc,twtwwwtwtttttttttttrttrttttttwtttttttttttttttttttttttt,&co=10,R’ U R F U2 F’,R’ D R F D2 F’
+,simple,visualcube,3,1,fc,ttttyttrtttttrtrrrtbttbtbbbttttttttttttttttttttttttttt,&arw=F1F5F2,O R O’ R’ F R’ F’ R,U R U’ R’ F R’ F’ R
+,simple,visualcube,3,2,fc,ttttyrttttgttgtgggttttrtrrrttttttttttttttttttttttttttt,&arw=R1R3R0,O’ F’ O F O R O’ R’,U’ F’ U F U R U’ R’
+,simple,visualcube,4,1,fc,tytyyttttttttttttttttttttttttttttttttttttttttttttttttt,,F O R O’ R’ F’,F U R U’ R’ F’
+,simple,visualcube,4,2,fc,tttyyytttttttttttttttttttttttttttttttttttttttttttttttt,,F R O R’ O’ F’,F R U R’ U’ F’
 ,simple,visualcube,4,3,fc,ttttyttttttttttttttttttttttttttttttttttttttttttttttttt,,,
-,simple,visualcube,5,1,fc,tytyyytytttytttttttttttttttttttttttttttttttttttttttttt,,R U R’ U’ R U R’ U’,
-,simple,visualcube,5,2,fc,tytyyytytttttttttttttttttttttttttttttttttttttytttttttt,&co=10,U R U’ R’ U R U’ R’,
-,simple,visualcube,6,1,fc,tytyyytyttbtggggggtrtrrrrrrttttttttttttttttttttttttttt,&arw=U1U5%2CU5U3%2CU3U1,R’ O R’ O’ R’ O’ R’ O R O R2,
-,simple,visualcube,6,2,fc,tytyyytyttotggggggtrtrrrrrrttttttttttttttttttttttttttt,&arw=U1U3%2CU3U5%2CU5U1,R2 O’ R’ O’ R O R O R O’ R,
-,simple,visualcube,7,1,fc,yyyyyyyyybgrggggggrrorrrrrrrrrtttttttttttttttttttttttt,,X R’ O R’ U2 R O’ R’ U2 R2,
-,simple,visualcube,7,2,fc,yyyyyyyyyogoggggggrrgrrrrrrttttttttttttttttttttttttttt,,X R2 U2 R O R’ U2 R O’ R,
-,moves,visualcube,1,1,fc,wwwwwwwwwooobbbbbbbbbrrrrrr,"",O,U
-,moves,visualcube,1,2,fc,wwrwwrwwrbbbbbbbbbrryrryrry,"",R,R
-,moves,visualcube,1,3,fc,wwwwwwgggwbbwbbwbbrrrrrrrrr,"",F,F
-,moves,visualcube,1,4,fc,wwwwwwwwwbbbbbbrrrrrrrrrggg,"",U,D
-,moves,visualcube,1,5,fc,owwowwowwbbbbbbbbbwrrwrrwrr,"",L,L
+,simple,visualcube,5,1,fc,tytyyytytttytttttttttttttttttttttttttttttttttttttttttt,,R U R’ U’ R U R’ U’,R D R’ D’ R D R’ D’
+,simple,visualcube,5,2,fc,tytyyytytttttttttttttttttttttttttttttttttttttytttttttt,&co=10,U R U’ R’ U R U’ R’,D R D’ R’ D R D’ R’
+,simple,visualcube,6,1,fc,tytyyytyttbtggggggtrtrrrrrrttttttttttttttttttttttttttt,&arw=U1U5%2CU5U3%2CU3U1,R’ O R’ O’ R’ O’ R’ O R O R2,R’ U R’ U’ R’ U’ R’ U R U R2
+,simple,visualcube,6,2,fc,tytyyytyttotggggggtrtrrrrrrttttttttttttttttttttttttttt,&arw=U1U3%2CU3U5%2CU5U1,R2 O’ R’ O’ R O R O R O’ R,R2 U’ R’ U’ R U R U R U’ R
+,simple,visualcube,7,1,fc,yyyyyyyyybgrggggggrrorrrrrrrrrtttttttttttttttttttttttt,,X R’ O R’ U2 R O’ R’ U2 R2,X R’ U R’ D2 R U’ R’ D2 R2
+,simple,visualcube,7,2,fc,yyyyyyyyyogoggggggrrgrrrrrrttttttttttttttttttttttttttt,,X R2 U2 R O R’ U2 R O’ R,X R2 D2 R U R’ D2 R U’ R
+,moves,visualcube,1,1,fc,wwwwwwwwwooobbbbbbbbbrrrrrr,,O,U
+,moves,visualcube,1,2,fc,wwrwwrwwrbbbbbbbbbrryrryrry,,R,R
+,moves,visualcube,1,3,fc,wwwwwwgggwbbwbbwbbrrrrrrrrr,,F,F
+,moves,visualcube,1,4,fc,wwwwwwwwwbbbbbbrrrrrrrrrggg,,U,D
+,moves,visualcube,1,5,fc,owwowwowwbbbbbbbbbwrrwrrwrr,,L,L
 ,moves,visualcube,1,6,fc,bbbwwwwwwbbybbybbyrrrrrrrrr,,H,B
 ,moves,visualcube,1,7,fc,wwwwwwwwwrrrbbbbbbgggrrrrrr,,O',U'
-,moves,visualcube,1,8,fc,wwowwowwobbbbbbbbbrrwrrwrrw,"","",R'
-,moves,visualcube,1,9,fc,wwwwwwbbbybbybbybbrrrrrrrrr,"","",F'
-,moves,visualcube,1,10,fc,wwwwwwwwwbbbbbbooorrrrrrbbb,"","",D'
-,moves,visualcube,1,11,fc,rwwrwwrwwbbbbbbbbbyrryrryrr,"","",L'
-,moves,visualcube,1,12,fc,gggwwwwwwbbwbbwbbwrrrrrrrrr,"","",B'
-,moves,visualcube,1,13,fc,wwwwwwwwwgggbbbbbbooorrrrrr,"","",U2
-,moves,visualcube,1,14,fc,wwywwywwybbbbbbbbbrrorrorro,"","",R2
-,moves,visualcube,1,15,fc,wwwwwwyyygbbgbbgbbrrrrrrrrr,"","",F2
-,moves,visualcube,1,16,fc,wwwwwwwwwbbbbbbgggrrrrrrooo,"","",D2
-,moves,visualcube,1,17,fc,ywwywwywwbbbbbbbbborrorrorr,"","",L2
-,moves,visualcube,1,18,fc,yyywwwwwwbbgbbgbbgrrrrrrrrr,"","",B2
-,moves,visualcube,1,19,fc,wwwwwwwwwoooooobbbbbbbbbrrr,"","",u
-,moves,visualcube,1,20,fc,wrrwrrwrrbbbbbbbbbryyryyryy,"","",r
-,moves,visualcube,1,21,fc,wwwggggggwwbwwbwwbrrrrrrrrr,"","",f
-,moves,visualcube,1,22,fc,wwwwwwwwwbbbrrrrrrrrrgggggg,"","",d
-,moves,visualcube,1,23,fc,oowoowoowbbbbbbbbbwwrwwrwwr,"","",l
-,moves,visualcube,1,24,fc,bbbbbbwwwbyybyybyyrrrrrrrrr,"","",b
-,moves,visualcube,1,25,fc,wwwwwwwwwrrrrrrbbbggggggrrr,"","",u'
-,moves,visualcube,1,26,fc,woowoowoobbbbbbbbbrwwrwwrww,"","",r'
-,moves,visualcube,1,27,fc,wwwbbbbbbyybyybyybrrrrrrrrr,"","",f'
-,moves,visualcube,1,28,fc,wwwwwwwwwbbboooooorrrbbbbbb,"","",d'
-,moves,visualcube,1,29,fc,rrwrrwrrwbbbbbbbbbyyryyryyr,"","",l'
-,moves,visualcube,1,30,fc,ggggggwwwbwwbwwbwwrrrrrrrrr,"","",b'
-,moves,visualcube,1,31,fc,wowwowwowbbbbbbbbbrwrrwrrwr,"","",M
-,moves,visualcube,1,32,fc,wrwwrwwrwbbbbbbbbbryrryrryr,"","",M'
-,moves,visualcube,1,33,fc,wwwwwwwwwbbbrrrbbbrrrgggrrr,"","",E
-,moves,visualcube,1,34,fc,wwwwwwwwwbbbooobbbrrrbbbrrr,"","",E'
-,moves,visualcube,1,35,fc,wwwgggwwwbwbbwbbwbrrrrrrrrr,"","",S
-,moves,visualcube,1,36,fc,wwwbbbwwwbybbybbybrrrrrrrrr,"","",S'
-,moves,visualcube,1,37,fc,rrrrrrrrrbbbbbbbbbyyyyyyyyy,"","",x
-,moves,visualcube,1,38,fc,ooooooooobbbbbbbbbwwwwwwwww,"","",x'
-,moves,visualcube,1,39,fc,wwwwwwwwwooooooooobbbbbbbbb,"","",y
-,moves,visualcube,1,40,fc,wwwwwwwwwrrrrrrrrrggggggggg,"","",y'
-,moves,visualcube,1,41,fc,gggggggggwwwwwwwwwrrrrrrrrr,"","",z
-,moves,visualcube,1,42,fc,bbbbbbbbbyyyyyyyyyrrrrrrrrr,"","",z'
+,moves,visualcube,1,8,fc,wwowwowwobbbbbbbbbrrwrrwrrw,,,R'
+,moves,visualcube,1,9,fc,wwwwwwbbbybbybbybbrrrrrrrrr,,,F'
+,moves,visualcube,1,10,fc,wwwwwwwwwbbbbbbooorrrrrrbbb,,,D'
+,moves,visualcube,1,11,fc,rwwrwwrwwbbbbbbbbbyrryrryrr,,,L'
+,moves,visualcube,1,12,fc,gggwwwwwwbbwbbwbbwrrrrrrrrr,,,B'
+,moves,visualcube,2,13,fc,wwwwwwwwwgggbbbbbbooorrrrrr,,,U2
+,moves,visualcube,2,14,fc,wwywwywwybbbbbbbbbrrorrorro,,,R2
+,moves,visualcube,2,15,fc,wwwwwwyyygbbgbbgbbrrrrrrrrr,,,F2
+,moves,visualcube,2,16,fc,wwwwwwwwwbbbbbbgggrrrrrrooo,,,D2
+,moves,visualcube,2,17,fc,ywwywwywwbbbbbbbbborrorrorr,,,L2
+,moves,visualcube,2,18,fc,yyywwwwwwbbgbbgbbgrrrrrrrrr,,,B2
+,moves,visualcube,3,19,fc,wwwwwwwwwoooooobbbbbbbbbrrr,,,u
+,moves,visualcube,3,20,fc,wrrwrrwrrbbbbbbbbbryyryyryy,,,r
+,moves,visualcube,3,21,fc,wwwggggggwwbwwbwwbrrrrrrrrr,,,f
+,moves,visualcube,3,22,fc,wwwwwwwwwbbbrrrrrrrrrgggggg,,,d
+,moves,visualcube,3,23,fc,oowoowoowbbbbbbbbbwwrwwrwwr,,,l
+,moves,visualcube,3,24,fc,bbbbbbwwwbyybyybyyrrrrrrrrr,,,b
+,moves,visualcube,3,25,fc,wwwwwwwwwrrrrrrbbbggggggrrr,,,u'
+,moves,visualcube,3,26,fc,woowoowoobbbbbbbbbrwwrwwrww,,,r'
+,moves,visualcube,3,27,fc,wwwbbbbbbyybyybyybrrrrrrrrr,,,f'
+,moves,visualcube,3,28,fc,wwwwwwwwwbbboooooorrrbbbbbb,,,d'
+,moves,visualcube,3,29,fc,rrwrrwrrwbbbbbbbbbyyryyryyr,,,l'
+,moves,visualcube,3,30,fc,ggggggwwwbwwbwwbwwrrrrrrrrr,,,b'
+,moves,visualcube,4,31,fc,wowwowwowbbbbbbbbbrwrrwrrwr,,,M
+,moves,visualcube,4,32,fc,wrwwrwwrwbbbbbbbbbryrryrryr,,,M'
+,moves,visualcube,4,33,fc,wwwwwwwwwbbbrrrbbbrrrgggrrr,,,E
+,moves,visualcube,4,34,fc,wwwwwwwwwbbbooobbbrrrbbbrrr,,,E'
+,moves,visualcube,4,35,fc,wwwgggwwwbwbbwbbwbrrrrrrrrr,,,S
+,moves,visualcube,4,36,fc,wwwbbbwwwbybbybbybrrrrrrrrr,,,S'
+,moves,visualcube,5,37,fc,rrrrrrrrrbbbbbbbbbyyyyyyyyy,,,x
+,moves,visualcube,5,38,fc,ooooooooobbbbbbbbbwwwwwwwww,,,x'
+,moves,visualcube,5,39,fc,wwwwwwwwwooooooooobbbbbbbbb,,,y
+,moves,visualcube,5,40,fc,wwwwwwwwwrrrrrrrrrggggggggg,,,y'
+,moves,visualcube,5,41,fc,gggggggggwwwwwwwwwrrrrrrrrr,,,z
+,moves,visualcube,5,42,fc,bbbbbbbbbyyyyyyyyyrrrrrrrrr,,,z'

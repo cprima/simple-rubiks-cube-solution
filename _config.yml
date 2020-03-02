@@ -7,8 +7,6 @@ description: > # this means to ignore newlines until "baseurl:"
   solution to the Rubik's cube.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
-twiiiiitter_username: jekyllrb
-github_username:  cprior
 
 # Build settings
 markdown: kramdown
@@ -18,8 +16,15 @@ permalink: /:categories/:title.html
 source:        .
 layouts_dir:  ./business/marketing/website/_layouts
 includes_dir: ./business/marketing/website/_includes
+#collections_dir: ./business/marketing/website/collections
 destination:  ./business/marketing/website/_site
 data_dir:     ./data
+
+collections:
+  solutions:
+    output: true
+  posts:
+    output: true
 
 sass:
     sass_dir: ./business/marketing/website/assets/_sass
